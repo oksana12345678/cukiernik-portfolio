@@ -1,11 +1,11 @@
 import {
   HeroBG,
-  Icons,
-  IconsGit,
-  IconsTelegram,
+  // Icons,
+  // IconsGit,
+  // IconsTelegram,
   MainHeroContainer,
-  SocialMedia,
-  SocialMediaList,
+  // SocialMedia,
+  // SocialMediaList,
   Title,
 } from "./Hero.styled";
 
@@ -15,9 +15,9 @@ const Hero = () => {
       <HeroBG>
         <MainHeroContainer>
           <Title>
-            Hello. I’m Front-end developer <span>Oksana Tanashchuk</span>
+            Witam, nazywam się <span>Oksana Tanashchuk</span>
           </Title>
-          <SocialMedia>
+          {/* <SocialMedia>
             <SocialMediaList>
               <li>
                 <a
@@ -38,7 +38,7 @@ const Hero = () => {
                 </a>
               </li>
             </SocialMediaList>
-          </SocialMedia>
+          </SocialMedia> */}
         </MainHeroContainer>
       </HeroBG>
     </>

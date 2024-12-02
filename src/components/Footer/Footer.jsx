@@ -81,7 +81,7 @@ const Footer = () => {
         </FooterTitleSpan>
         together
       </FooterTitle>
-      <p>Contact me</p>
+      <p>Skontaktuj się ze mną</p>
 
       <FooterForm
         data-netlify="true"

@@ -38,7 +38,7 @@ export const LinkStyle = styled.a`
   color: var(--light-text-color);
   padding: 16px 12px;
   border-radius: 16px;
-  background: var(--accent-color);
+  background: var(--accent-color-light-hover);
   transition: all 0.3s ease-in-out;
 
   &:hover {

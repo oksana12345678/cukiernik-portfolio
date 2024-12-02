@@ -120,7 +120,7 @@ export const DescAboutMe = styled.div`
 
   @media screen and (min-width: 768px) {
     padding: 32px;
-    font-size: 28px;
+    font-size: 18px;
   }
 `;
 

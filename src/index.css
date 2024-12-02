@@ -16,7 +16,10 @@
   --main-bg: #1c1d20;
 
   --text-primary-color: #273f54;
-  --bg-button-color: linear-gradient(rgb(97, 159, 218), rgb(207, 226, 241));
+  --bg-button-color: linear-gradient(
+    rgba(255, 88, 96, 0.8),
+    rgb(207, 226, 241)
+  );
 
   --bg-hover-color: rgb(252, 70, 79, 0.7);
 

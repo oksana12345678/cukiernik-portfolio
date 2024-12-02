@@ -95,11 +95,12 @@ export const SwiperSlideItem = styled.p`
     text-overflow: ellipsis;
     overflow: hidden;
     text-align: center;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     padding: 4px;
   }
 
-  /* @media screen and (min-width: 768px) {
-  } */
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
 `;

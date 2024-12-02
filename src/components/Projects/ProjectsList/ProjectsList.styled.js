@@ -4,19 +4,17 @@ import styled from "styled-components";
 export const SwiperItem = styled.div`
   @media screen and (min-width: 320px) {
     background: var(--bg-button-color);
-    border-radius: 16px;
-    min-width: 288px;
+    min-width: 200px;
     margin: 0 auto;
-    height: 642px;
-    overflow: scroll;
+    height: 600px;
   }
 
   @media screen and (min-width: 768px) {
     background: var(--bg-button-color);
     border-radius: 16px;
-    min-width: 704px;
-    height: 600px;
+    min-width: 200px;
     margin: 0 auto;
+    margin-left: 12px;
   }
 `;
 

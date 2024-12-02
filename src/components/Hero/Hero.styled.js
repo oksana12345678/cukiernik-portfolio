@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bgImage from "../../assets/Lovepik_com-500371101-colorful-dazzling-banner.webp";
+import bgImage from "../../assets/chocolate-cake-recipeimages-chocolate-ice-cream.jpg";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { VscGithubAlt } from "react-icons/vsc";
 import { PiTelegramLogoLight } from "react-icons/pi";
@@ -47,7 +47,7 @@ export const Title = styled.h1`
   @media screen and (min-width: 320px) {
     font-weight: 500;
     font-size: 30px;
-    color: var(--text-primary-color);
+    color: var(--hover-buttons-blu);
     display: flex;
     flex-direction: column;
     text-align: start;
@@ -82,7 +82,7 @@ export const Icons = styled(SlSocialLinkedin)`
   @media screen and (min-width: 320px) {
     width: 26px;
     height: 26px;
-    color: var(--text-primary-color);
+    color: var(--hover-buttons-blu);
     transition: color 0.4s ease-in-out, filter 0.4s ease-in-out;
 
     &:hover {
@@ -102,7 +102,7 @@ export const IconsGit = styled(VscGithubAlt)`
   @media screen and (min-width: 320px) {
     width: 26px;
     height: 26px;
-    color: var(--text-primary-color);
+    color: var(--hover-buttons-blu);
     transition: color 0.4s ease-in-out, filter 0.4s ease-in-out;
 
     &:hover {
@@ -122,7 +122,7 @@ export const IconsTelegram = styled(PiTelegramLogoLight)`
   @media screen and (min-width: 320px) {
     width: 26px;
     height: 26px;
-    color: var(--text-primary-color);
+    color: var(--hover-buttons-blu);
     transition: color 0.4s ease-in-out, filter 0.4s ease-in-out;
 
     &:hover {

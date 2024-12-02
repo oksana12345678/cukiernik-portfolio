@@ -7,7 +7,7 @@ import {
   MainContainer,
 } from "./Header.styled";
 
-import logo from "/logo.webp";
+import logo from "/white_on_black-removebg-preview.png";
 
 const Header = () => {
   return (

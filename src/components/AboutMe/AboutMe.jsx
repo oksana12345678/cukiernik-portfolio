@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import meSrc from "../../assets/front.png";
+import meSrc from "../../assets/FB_IMG_1519849053589.jpg";
 import { TitleProjects } from "../Projects/Projects.styled";
 import {
   AboutMeSection,
@@ -48,9 +48,16 @@ const AboutMe = () => {
         <ContainerAboutMe>
           <DescContainerAboutMeLeft $isVisible={isVisible}>
             <DescAboutMe>
-              Creating modern, responsive interfaces that bring your ideas to
-              life and enhance user engagement. I develop fast, functional
-              solutions focused on usability and innovation.
+              Jako cukiernik, mam pasję do tworzenia wyjątkowych deserów, które
+              zachwycają nie tylko smakiem, ale także estetyką. Moja praca
+              polega na przygotowywaniu różnorodnych wypieków, od klasycznych
+              ciast po innowacyjne desery, które łączą tradycję z nowoczesnymi
+              technikami. Zawsze staram się dbać o jakość składników i precyzję
+              wykonania, aby każdy wypiek był niepowtarzalny. Pasjonuję się
+              także dekorowaniem ciast, co pozwala mi wyrazić swoją kreatywność
+              w pełni. Praca cukiernika to dla mnie nie tylko zawód, ale
+              prawdziwa pasja, która daje mi ogromną satysfakcję, gdy mogę
+              dzielić się swoimi dziełami z innymi.
             </DescAboutMe>
           </DescContainerAboutMeLeft>
           <DescContainerAboutMeRight $isVisible={isVisible}>
