@@ -24,7 +24,7 @@ export const BurgerButton = styled.div`
   div {
     width: 100%;
     height: 4px;
-    background: var(--accent-color);
+    background: var(--accent-color-light-hover);
     border-radius: 2px;
     transition: transform 0.3s ease;
   }
@@ -68,7 +68,7 @@ export const MenuItem = styled.a`
   color: var(--light-text-color);
   padding: 16px 12px;
   border-radius: 16px;
-  background: var(--accent-color);
+  background: var(--accent-color-light-hover);
   align-items: center;
   justify-content: center;
   transition: all 400ms ease-in-out;
