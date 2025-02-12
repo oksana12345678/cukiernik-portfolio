@@ -51,7 +51,7 @@ const Footer = () => {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams({
-        "form-name": "contact",
+        "form-name": "contact-me",
         ...formValues,
       }).toString(),
     })
@@ -85,7 +85,7 @@ const Footer = () => {
 
       <FooterForm
         data-netlify="true"
-        name="contact"
+        name="contact-me"
         method="post"
         onSubmit={handleSubmit}
         action="/"

@@ -1,5 +1,5 @@
 [build]
-  publish = "dist" # вкажіть папку, де знаходиться ваш зібраний сайт (наприклад, "public" або "dist")
+  publish = "dist" 
 
 [[redirects]]
   from = "/contact"
