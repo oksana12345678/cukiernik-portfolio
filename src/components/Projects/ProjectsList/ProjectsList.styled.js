@@ -7,6 +7,7 @@ export const SwiperItem = styled.div`
     min-width: 200px;
     margin: 0 auto;
     height: 600px;
+    border-radius: 16px;
   }
 
   @media screen and (min-width: 768px) {
@@ -31,8 +32,8 @@ export const ButtonPortfolio = styled.button`
   border: 1px solid var(--bg-button-color);
   border-radius: 100%;
   padding: 12px;
-  height: 60px;
-  width: 60px;
+  /* height: 60px;
+  width: 60px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,8 +41,6 @@ export const ButtonPortfolio = styled.button`
   transition: border-color 0.3s ease, color 0.3s ease;
 
   &:hover {
-    border-color: var(--accent-color-light-hover);
-
     svg {
       color: var(--accent-color-light-hover);
       filter: drop-shadow(0 4px 15px var(--accent-color-light-hover))

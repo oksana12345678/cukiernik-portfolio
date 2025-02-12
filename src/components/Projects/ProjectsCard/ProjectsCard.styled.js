@@ -5,6 +5,7 @@ export const ContainerDesc = styled.div`
     border-radius: 16px;
     padding: 24px;
     height: 100%;
+    overflow: hidden;
   }
 
   @media screen and (min-width: 768px) {
@@ -16,6 +17,7 @@ export const ImageContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
     height: 550px;
     width: 100%;
   }
@@ -26,7 +28,7 @@ export const PortfolioImage = styled.img`
     width: 100%;
     object-fit: cover;
     border-radius: 16px;
-    height: 164px;
+    height: 340px;
   }
 
   @media screen and (min-width: 768px) {
